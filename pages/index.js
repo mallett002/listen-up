@@ -10,6 +10,9 @@ const Home = () => (
       </Head>
       <h1>hey..</h1>
       <Link href="/posts/first-post"><a>First Post.</a></Link>
+      <footer>
+        <img src="/vercel.svg" alt="Vercel Logo" className="logo" /> 
+      </footer>
     </div>
 );
 

@@ -1,10 +1,16 @@
 import Link from 'next/link';
+import Head from'next/head';
+
+import Layout from '../../components/layout';
 
 const FirstPost = () => (
-    <div>
+    <Layout>
+        <Head>
+            <title>first post!</title>
+        </Head>
         <h1>First Post.</h1>
         <Link href='/'><a>Back to home.</a></Link>
-    </div>
+    </Layout>
 );
 
 export default FirstPost;
